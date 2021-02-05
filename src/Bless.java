@@ -5,8 +5,8 @@ public class Bless {
     public static String[] blessWord = new String[]{"新年快乐，孤寡孤寡","新年新对象，年年不一样"};
     public static int count = 10000;//每条线程打印的数目
     public static int threadCount=99999;//线程数
-    public static int i = 0;//线程名
-    public static int k = 0;//线程名
+    public static int i = 0;
+    public static int k = 0;
     public static ExecutorService fixedExecutor = Executors.newFixedThreadPool(threadCount);
     public static void main(String[] args) {
 
